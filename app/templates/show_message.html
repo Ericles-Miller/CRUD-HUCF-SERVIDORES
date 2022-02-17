@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+    
+{% block title %} Cadastro Candidatos {% endblock title %} 
+
+{% block content %} 
+
+<div class="alert alert-success" role="alert" style="margin-top: 30%"> Dados Cadastrados com Sucesso</div>
+<button><a href="{% url 'inicio' %}" class="btn btn-primary">Tela Inicial</a></button>
+{% endblock content %}
